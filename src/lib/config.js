@@ -9,5 +9,9 @@ export const config = {
 	cors: {
 		origin: process.env.DOMAIN_APP || '*',
 		optionsSuccessStatus: 200
+	},
+
+	swagger: {
+		url: process.env.DOMAIN_API || `http://localhost:${config.express.port}`
 	}
 }

@@ -11,7 +11,7 @@ export const options = {
 		},
 		servers: [
 			{
-				url: process.env.DOMAIN_API || `http://localhost:${config.express.port}`
+				url: config.swagger.url
 			}
 		]
 	},
