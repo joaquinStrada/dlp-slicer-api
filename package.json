@@ -1,7 +1,7 @@
 {
   "name": "stl-slicer",
   "version": "1.0.0",
-  "description": "Esta es una api para rebanar y analizar archivos stl",
+  "description": "Esta es una api para analizar y rebanar archivos stl",
   "main": "src/index.js",
   "scripts": {
     "start": "node dist/index.js",
